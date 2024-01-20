@@ -5314,14 +5314,14 @@ img {
   right: -20px;
   top: -30px;
 }
-.sticky-2 .header__logo-5 img {
+/*.sticky-2 .header__logo-5 img {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
 .sticky-2 .header__nav-icon-5 {
   -webkit-filter: invert(1);
           filter: invert(1);
-}
+}*/
 
 .sticky-7 .header__nav-icon-7 .menu-icon-2::after {
   width: 100px;
@@ -13038,9 +13038,16 @@ img {
   position: relative;
   height: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+  .portfolio__service-list{
+    padding-top:  0 !important;
+  }
+}
 @media only screen and (max-width: 767px) {
   .portfolio__about-left {
     padding-bottom: 30px;
+    padding-top: 30px;
   }
 }
 .portfolio__about-left img {
